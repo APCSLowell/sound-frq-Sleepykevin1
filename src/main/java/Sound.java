@@ -3,7 +3,7 @@ public class Sound
   /** the array of values in this sound; guaranteed not to be null */
   private int[] samples;
 
-  public Sound(int[] initSamples)  // constructor to initialize samples
+  public Sound(int[] initSamples)
   {
     samples = initSamples;
   }
